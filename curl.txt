@@ -1,0 +1,5 @@
+curl -d '{"strIfsc":"ABHY0065011"}' -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IlRlc3RVc2VyIiwiZXhwIjoxNjA2NTg0ODY5LCJlbWFpbCI6IiIsIm9yaWdfaWF0IjoxNjA2MTUyODY5fQ.s2r9H5jUDMthQ_L944-CFubfJdqz9YOUpZ7WGOEc9TU" -H 'Content-Type: application/json' http://localhost:8000/api-bankdetails/bankdetails/
+
+curl -d '{"strBank":"ABHYUDAYA COOPERATIVE BANK LIMITED","strCity":"MUMBAI","intLimit":10,"intOffset":"2"}' -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IlRlc3RVc2VyIiwiZXhwIjoxNjA2NTg0ODY5LCJlbWFpbCI6IiIsIm9yaWdfaWF0IjoxNjA2MTUyODY5fQ.s2r9H5jUDMthQ_L944-CFubfJdqz9YOUpZ7WGOEc9TU" -H 'Content-Type: application/json' http://localhost:8000/api-bankdetails/banklist/
+
+
